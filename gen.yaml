@@ -6,4 +6,4 @@ generation:
   singleTagPerOp: false
 go:
   version: ""
-  packageName: com.example.cats
+  packageName: github.com/speakeasy-sdks/Sf-go
