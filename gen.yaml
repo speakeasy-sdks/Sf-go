@@ -1,9 +1,13 @@
 configVersion: 1.0.0
+management:
+  docChecksum: de16d566baeb4bce8c06d73958bd8786
+  docVersion: "1.0"
+  speakeasyVersion: 1.20.2
+  generationVersion: 2.18.2
 generation:
   telemetryEnabled: false
   sdkClassName: SDK
-  sdkFlattening: true
   singleTagPerOp: false
 go:
-  version: ""
+  version: 1.0.0
   packageName: github.com/speakeasy-sdks/Sf-go
