@@ -1,5 +1,8 @@
-# github.com/speakeasy-sdks/Sf-go
-
+<div align="center">
+        <img src="https://user-images.githubusercontent.com/6267663/232818997-c90f68a0-39a7-466c-85f0-a9d600c5daec.png" width="100" />
+        <h1>Cats Go SDK</h1>
+</div>
+       
 <!-- Start SDK Installation -->
 ## SDK Installation
 
