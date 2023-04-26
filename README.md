@@ -16,12 +16,10 @@ go get github.com/speakeasy-sdks/Sf-go
 ```go
 package main
 
-import (
-    "context"
-    "log"
-    "github.com/speakeasy-sdks/Sf-go"
-    "github.com/speakeasy-sdks/Sf-go/pkg/models/shared"
-    "github.com/speakeasy-sdks/Sf-go/pkg/models/operations"
+import(
+	"context"
+	"log"
+	"github.com/speakeasy-sdks/Sf-go"
 )
 
 func main() {
@@ -43,14 +41,14 @@ func main() {
 <!-- Start SDK Available Operations -->
 ## Available Resources and Operations
 
-### SDK SDK
+### [SDK](docs/sdk/README.md)
 
-* `AppControllerGetHello`
-* `CatControllerCreate`
-* `CatControllerFindAll`
-* `CatControllerFindOne`
-* `CatControllerRemove`
-* `CatControllerUpdate`
+* [AppControllerGetHello](docs/sdk/README.md#appcontrollergethello)
+* [CatControllerCreate](docs/sdk/README.md#catcontrollercreate)
+* [CatControllerFindAll](docs/sdk/README.md#catcontrollerfindall)
+* [CatControllerFindOne](docs/sdk/README.md#catcontrollerfindone)
+* [CatControllerRemove](docs/sdk/README.md#catcontrollerremove)
+* [CatControllerUpdate](docs/sdk/README.md#catcontrollerupdate)
 <!-- End SDK Available Operations -->
 
 ### Maturity

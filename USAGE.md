@@ -2,12 +2,10 @@
 ```go
 package main
 
-import (
-    "context"
-    "log"
-    "github.com/speakeasy-sdks/Sf-go"
-    "github.com/speakeasy-sdks/Sf-go/pkg/models/shared"
-    "github.com/speakeasy-sdks/Sf-go/pkg/models/operations"
+import(
+	"context"
+	"log"
+	"github.com/speakeasy-sdks/Sf-go"
 )
 
 func main() {
