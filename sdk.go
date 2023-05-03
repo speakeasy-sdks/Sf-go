@@ -85,8 +85,8 @@ func WithClient(client HTTPClient) SDKOption {
 func New(opts ...SDKOption) *SDK {
 	sdk := &SDK{
 		_language:   "go",
-		_sdkVersion: "1.1.0",
-		_genVersion: "2.21.1",
+		_sdkVersion: "1.2.0",
+		_genVersion: "2.24.0",
 	}
 	for _, opt := range opts {
 		opt(sdk)
@@ -140,6 +140,7 @@ func (s *SDK) AppControllerGetHello(ctx context.Context) (*operations.AppControl
 
 	return res, nil
 }
+
 func (s *SDK) CatControllerCreate(ctx context.Context, request shared.CreateCatDto) (*operations.CatControllerCreateResponse, error) {
 	baseURL := s._serverURL
 	url := strings.TrimSuffix(baseURL, "/") + "/cat"
@@ -183,6 +184,7 @@ func (s *SDK) CatControllerCreate(ctx context.Context, request shared.CreateCatD
 
 	return res, nil
 }
+
 func (s *SDK) CatControllerFindAll(ctx context.Context) (*operations.CatControllerFindAllResponse, error) {
 	baseURL := s._serverURL
 	url := strings.TrimSuffix(baseURL, "/") + "/cat"
@@ -216,6 +218,7 @@ func (s *SDK) CatControllerFindAll(ctx context.Context) (*operations.CatControll
 
 	return res, nil
 }
+
 func (s *SDK) CatControllerFindOne(ctx context.Context, request operations.CatControllerFindOneRequest) (*operations.CatControllerFindOneResponse, error) {
 	baseURL := s._serverURL
 	url, err := utils.GenerateURL(ctx, baseURL, "/cat/{id}", request, nil)
@@ -252,6 +255,7 @@ func (s *SDK) CatControllerFindOne(ctx context.Context, request operations.CatCo
 
 	return res, nil
 }
+
 func (s *SDK) CatControllerRemove(ctx context.Context, request operations.CatControllerRemoveRequest) (*operations.CatControllerRemoveResponse, error) {
 	baseURL := s._serverURL
 	url, err := utils.GenerateURL(ctx, baseURL, "/cat/{id}", request, nil)
@@ -288,6 +292,7 @@ func (s *SDK) CatControllerRemove(ctx context.Context, request operations.CatCon
 
 	return res, nil
 }
+
 func (s *SDK) CatControllerUpdate(ctx context.Context, request operations.CatControllerUpdateRequest) (*operations.CatControllerUpdateResponse, error) {
 	baseURL := s._serverURL
 	url, err := utils.GenerateURL(ctx, baseURL, "/cat/{id}", request, nil)
