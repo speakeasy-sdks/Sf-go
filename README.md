@@ -41,14 +41,14 @@ func main() {
 <!-- Start SDK Available Operations -->
 ## Available Resources and Operations
 
-### [SDK](docs/sdk/README.md)
+### [SDK](docs/sdks/sdk/README.md)
 
-* [AppControllerGetHello](docs/sdk/README.md#appcontrollergethello)
-* [CatControllerCreate](docs/sdk/README.md#catcontrollercreate)
-* [CatControllerFindAll](docs/sdk/README.md#catcontrollerfindall)
-* [CatControllerFindOne](docs/sdk/README.md#catcontrollerfindone)
-* [CatControllerRemove](docs/sdk/README.md#catcontrollerremove)
-* [CatControllerUpdate](docs/sdk/README.md#catcontrollerupdate)
+* [AppControllerGetHello](docs/sdks/sdk/README.md#appcontrollergethello)
+* [CatControllerCreate](docs/sdks/sdk/README.md#catcontrollercreate)
+* [CatControllerFindAll](docs/sdks/sdk/README.md#catcontrollerfindall)
+* [CatControllerFindOne](docs/sdks/sdk/README.md#catcontrollerfindone)
+* [CatControllerRemove](docs/sdks/sdk/README.md#catcontrollerremove)
+* [CatControllerUpdate](docs/sdks/sdk/README.md#catcontrollerupdate)
 <!-- End SDK Available Operations -->
 
 ### Maturity

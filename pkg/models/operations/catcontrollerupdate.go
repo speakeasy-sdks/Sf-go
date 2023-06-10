@@ -3,12 +3,13 @@
 package operations
 
 import (
+	"github.com/speakeasy-sdks/Sf-go/pkg/models/shared"
 	"net/http"
 )
 
 type CatControllerUpdateRequest struct {
-	RequestBody map[string]interface{} `request:"mediaType=application/json"`
-	ID          string                 `pathParam:"style=simple,explode=false,name=id"`
+	UpdateCatDto shared.UpdateCatDto `request:"mediaType=application/json"`
+	ID           string              `pathParam:"style=simple,explode=false,name=id"`
 }
 
 type CatControllerUpdateResponse struct {
